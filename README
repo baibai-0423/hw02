@@ -20,9 +20,7 @@
 
 ## 四、目录结构
 hw02/
-├── 导读_xxx.md
 ├── chatbot_deepseek.py
-├── requirements.txt
 └── README.md
 
 ## 五、参考资料
