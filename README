@@ -1,0 +1,31 @@
+# README.md
+
+## 一、作业基本信息
+- 作业名称：人工智能导论作业02
+- 完成时间：2026-03-19
+
+## 二、任务一：论文导读
+- **论文来源**：中国知网（CNKI）
+- **导读生成**：使用豆包大模型基于论文原文生成
+- **配图方式**：从期刊官网获取论文图表，手动粘贴至导读文档并添加图注
+
+## 三、任务二：Chatbot 实现
+- **API 平台**：DeepSeek API（模型：deepseek-chat）
+- **运行环境**：Python 3.9+，依赖 `requests`
+- **运行方式**：
+  1. 安装依赖：`pip install -r requirements.txt`
+  2. 配置 API Key：`export DEEPSEEK_API_KEY="你的Key"`（Windows 用 `$env:` 前缀）
+  3. 启动：`python chatbot_deepseek.py`
+- **注意事项**：API Key 需通过环境变量配置，禁止硬编码；账户需保有可用额度，确保网络可访问外网。
+
+## 四、目录结构
+hw02/
+├── 导读_xxx.md
+├── chatbot_deepseek.py
+├── requirements.txt
+└── README.md
+
+## 五、参考资料
+1.  论文原文（知网来源）
+2.  DeepSeek API 官方文档
+3.  人工智能导论作业02 要求
